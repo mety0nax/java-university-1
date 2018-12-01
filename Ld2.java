@@ -98,7 +98,7 @@ public class Ld2141rdb150
 		// If we hit the target
 		else if ( target_hit )
 			System.out.println( SUCCESS );
-		// This will execute if something weird happens
+		// If something weird happens
 		else
 			System.exit( 1 );
 	}  
