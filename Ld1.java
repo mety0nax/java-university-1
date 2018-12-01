@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Ld1141rdb150
 {
-	public static void main( String Arguments[ ] )
+	public static void main( String cmd_arguments[ ] )
 	{
         	// String constants
         	final String AUTHOR = "Name, Surname, ID";
