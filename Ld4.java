@@ -15,7 +15,7 @@ public class Ld4141rdb150
         	// Variables
         	boolean random = false;
 
-        	// Predefined array int[8][5]
+        	// Predefined array int[ 8 ][ 5 ]
         	int Array[ ][ ] = {
             		{  0,  1,  2,  0,  2 },
             		{  4,  4,  4,  4,  4 },
