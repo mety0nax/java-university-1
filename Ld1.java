@@ -57,7 +57,7 @@ public class Ld1141rdb150
         else if ((Point_X - 6) * (Point_X - 6) + (Point_Y - 6) * (Point_Y - 6) <= 16)
             RESULT = COLOR_GREEN;
 
-		// Checking red rectangular outside of circle
+	// Checking red rectangular outside of circle
         else if ((Point_X >= 3 && Point_X <= 5 || Point_X >= 7 && Point_X <= 9) && Point_Y >= 8 && Point_Y <= 13)
             RESULT = COLOR_RED;
 
