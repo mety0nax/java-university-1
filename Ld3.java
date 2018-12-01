@@ -68,12 +68,12 @@ public class Ld3141rdb150
                         int i = 0;
                         do
                         {
-                                    // 10 Elements per line, and line break after array header ... (0 % 10 is 0)
-                                    if ( i % 10 == 0 ) System.out.print( "\n" );
-                                    // Printing next element
-                                    if ( i != 19 ) System.out.printf( "%d\t", A[i] );
-                                    else if ( i == 19 ) System.out.printf( "%d", A[i] );
-                                    i += 1;
+                                // 10 Elements per line, and line break after array header ... (0 % 10 is 0)
+                                if ( i % 10 == 0 ) System.out.print( "\n" );
+                                // Printing next element
+                                if ( i != 19 ) System.out.printf( "%d\t", A[i] );
+                                else if ( i == 19 ) System.out.printf( "%d", A[i] );
+                                i += 1;
                         }
                         while ( i < 20 );
                 }
