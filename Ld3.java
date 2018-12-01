@@ -27,7 +27,7 @@ public class Ld3141rdb150
                         k = Get.nextInt( );
                 } 
         
-                // If error occures --> Print error --> Exit programm with retCode=1
+                // If error occures --> Print error --> Exit programm with return code 1
                 catch ( Exception EXC )
                 {
                         System.out.print( IO_ERROR );
