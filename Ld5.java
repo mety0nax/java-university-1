@@ -23,7 +23,7 @@ public class Ld5141rdb150
                         // Getting char
                         var = Get.next( ).charAt( 0 );
                 }
-                // If char is not 1 or 2, Exit programm with retCode=1
+                // If char is not 1 or 2, Exit programm with return code  1
                 catch ( Exception EXC )
                 {
                         System.out.println( IO_ERROR );
