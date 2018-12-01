@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Ld1141rdb150
 {
 	public static void main( String Arguments[ ] )
-    {
+        {
         // String constants
         final String AUTHOR = "Name, Surname, ID";
         final String IO_ERROR = "input-output error";
