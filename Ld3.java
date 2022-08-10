@@ -43,7 +43,8 @@ public class Ld3141rdb150
 		{
 			k = 5;
 			int i = 0;
-			while ( i < 20 ){
+			while ( i < 20 )
+			{
 				A[i] = get_random_integer( -10, 10 );
 				i += 1;
 			}
@@ -55,7 +56,8 @@ public class Ld3141rdb150
 		{
 			A[0] = 1;
 			int i = 1;
-			while ( i < 20 ){
+			while ( i < 20 )
+			{
 				A[i] = A[i - 1] + k;
 				i += 1;
 			}
