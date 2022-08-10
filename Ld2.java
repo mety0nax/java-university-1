@@ -81,7 +81,7 @@ public class Ld2141rdb150
 				low_ground_hit = true;
 				condition_proc = true;
 			}
-			
+
 			// Target hit ?
 			if ( temp_x >= 12 && temp_x <= 17 && temp_y <= -2 && temp_y >= -4 ){
 				target_hit = true;
@@ -101,5 +101,5 @@ public class Ld2141rdb150
 		// If something weird happens
 		else
 			System.exit( 1 );
-	}  
+	}
 }
